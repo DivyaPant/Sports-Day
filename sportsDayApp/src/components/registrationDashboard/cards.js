@@ -2,7 +2,7 @@ import React from "react";
 import tick from '../../assets/images/tick.svg';
 
 const Card = (props) => {
-  const { displayButton, displayData, onButtonClick, disabled, selectedEvents } = props;
+  const { displayButton, displayData, onButtonClick, disabled } = props;
 
   const formatDate = (start, end) => {
     const options = {
