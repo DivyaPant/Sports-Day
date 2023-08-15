@@ -25,6 +25,8 @@ npm
 
 ### Installation
 
+cd sportsDayApp
+
 npm install
 
 npm start
@@ -36,7 +38,7 @@ Your site should now be running at `http://localhost:3000/`.
 ### Folder Structure 
 
 ```
-	|_ root folder
+	|_ sportsDayApp(root folder)
 	  |_ package.json (Includes dev dependencies and scripts for env based build commands.)
 	  |_ public (Application build)
 	  |_ README.md
